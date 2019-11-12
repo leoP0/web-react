@@ -41,7 +41,7 @@ export const experienceInfo = [
 		description: `During my time at Costco, I was involved with stocking and
 		rotating new product every day. Providing great customer service to all
 		members. Collaborated with different departments when needed and willing to
-		put more hours if needed. Always willing to be trained in different
+		put in more hours if needed. Always willing to be trained in different
 		departments to fill in positions.`
 	}
 ]
@@ -51,7 +51,7 @@ export const projectInfo = [
 		title: "Uncoiler & Lift",
 		description: `Designed the electrical system for this machine that
 		controlled vfds, sensors data, hydraulic and pneumatic valves. This 
-		project was budgeted and approved to build with a total cost of $25,000.`
+		project was budgeted and approved to build with a total cost of $17,000.`
 	},
 	{
 		title: "Automated Greenhouse (Wireless Sensor Subsystem)",
