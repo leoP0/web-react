@@ -2,9 +2,7 @@ import React, { Component } from "react"
 import ReactTooltip from "react-tooltip"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 
-import GithubIcon from "../icons/github.svg"
 import LinkedInIcon from "../icons/linkedin.svg"
-import InstagramIcon from "../icons/instagram.svg"
 import Face from "../images/leo.jpg"
 import GoToPage from "../icons/go-to-page.png"
 

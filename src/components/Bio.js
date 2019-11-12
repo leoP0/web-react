@@ -8,7 +8,7 @@ const styles = {
 class Biography extends Component {
 	renderExperience = bioInfo => {
 		return bioInfo.map(bio => {
-			const { title, meta, description } = bio
+			const { title } = bio
 
 			return (
 				<div className="ui orange centered card">

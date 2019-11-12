@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 import { projectInfo } from "../shared/Info"
-import { Link } from "react-router-dom"
-import { Route } from "react-router-dom"
 
 const styles = {
 	icon: { height: "24px", width: "24px", marginRight: "10px" },
@@ -12,7 +10,7 @@ const styles = {
 class Projects extends Component {
 	renderProjects = projectInfo => {
 		return projectInfo.map(project => {
-			const { title, icon, iconAlt, description } = project
+			const { title, description } = project
 
 			return (
 				<div className="ui orange centered card" key={title}>

@@ -10,8 +10,7 @@ const styles = {
 		"& .ui.orange.labels .label:hover, a.ui.orange.label:hover": {
 		backgroundColor: "#000000 !important",
 		color: "#f2711c !important" }
-	},
-	span: { color: "black" }
+	}
 }
 
 class Skills extends Component {
