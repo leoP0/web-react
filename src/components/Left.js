@@ -9,7 +9,7 @@ import Face from "../images/leo.jpg"
 import GoToPage from "../icons/go-to-page.png"
 
 const styles = {
-	list: { padding: "10px", marginBottom: window.innerWidth >= 575.98 ? "0px" : "30px" },
+	list: { padding: "10px" },
 	icon: { height: "32px", width: "32px" },
 	email: { marginTop: "10px" },
 	segment: { border: "1.5px solid", boxShadow: "5px 5px", paddingBottom: "0px" },
@@ -27,14 +27,14 @@ class Left extends Component {
 	render() {
 		return (
 			<div className="ui center aligned basic segment" style={styles.segment}>
-				<div
+				{/* <div
 					className={`ui ${
 						window.innerWidth >= 575.98 ? "top" : "bottom"
 					} attached orange label`}
 					style={styles.label}
 				>
 					<span style={styles.span}></span>
-				</div>
+				</div> */}
 				<img
 					className="ui centered small circular image"
 					alt="Edgar Perez"

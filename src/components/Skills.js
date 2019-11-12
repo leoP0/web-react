@@ -3,8 +3,13 @@ import { withStyles } from "@material-ui/styles"
 import { skillsInfo } from "../shared/Info"
 
 const styles = {
-	label: { "& .ui.orange.labels .label:hover, a.ui.orange.label:hover": {
-		backgroundColor: "#ffffff !important" }
+	label: { 
+		"& .ui.orange.labels .label, a.ui.orange.label": {
+			color: "black !important"
+		},
+		"& .ui.orange.labels .label:hover, a.ui.orange.label:hover": {
+		backgroundColor: "#000000 !important",
+		color: "#f2711c !important" }
 	},
 	span: { color: "black" }
 }
