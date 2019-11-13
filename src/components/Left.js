@@ -3,6 +3,7 @@ import ReactTooltip from "react-tooltip"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 
 import LinkedInIcon from "../icons/linkedin.svg"
+import GithubIcon from "../icons/github.svg"
 import Face from "../images/leo.jpg"
 import GoToPage from "../icons/go-to-page.png"
 
@@ -71,6 +72,15 @@ class Left extends Component {
 							rel="noopener noreferrer"
 						>
 							<img style={styles.icon} alt="linkedin-icon" src={LinkedInIcon} />
+						</a>
+					</div>
+					<div className="item" data-tip="Go to Github">
+						<a
+							href="https://github.com/leoP0"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img style={styles.icon} alt="github-icon" src={GithubIcon} />
 						</a>
 					</div>
 					<div className="item" data-tip="Go to Resume">
