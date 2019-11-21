@@ -34,15 +34,6 @@ export const experienceInfo = [
 		description2: `Programmed logic modules such as Siemens LOGO! for costumed
 		electrical panels and produced their setting instructions and operations
 		manual.`
-	},
-	{
-		title: "Merchandiser/Cashier/Front-End/Gas Attendant",
-		meta: "Costco Wholesale, Roseburg OR, August 2013 – December 2017",
-		description: `During my time at Costco, I was involved with stocking and
-		rotating new product every day. Providing great customer service to all
-		members. Collaborated with different departments when needed and willing to
-		put in more hours if needed. Always willing to be trained in different
-		departments to fill in positions.`
 	}
 ]
 
