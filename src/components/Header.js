@@ -14,6 +14,13 @@ class Header extends Component {
 		activeRoute: "education"
 	}
 
+	componentDidMount() {
+		const { pathname } = this.props.location
+		this.setState({
+			activeRoute: pathname === "/" ? "education" : pathname.slice(1)
+		})
+	}
+
 	handleRouteClick = (e, { name }) => {
 		this.setState({ activeRoute: name })
 		this.props.history.push(`/${name}`)

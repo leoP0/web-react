@@ -1,5 +1,11 @@
 import React, { Component } from "react"
-import { Route } from "react-router-dom"
+import { 
+	BrowserRouter,
+	Router,
+	Switch,
+	Route
+} from "react-router-dom"
+
 
 import Experience from "./Experience"
 import Projects from "./Projects"
@@ -14,14 +20,16 @@ const styles = {
 class Right extends Component {
 	render() {
 		return (
-			<div className="ui center aligned basic segment" style={styles.segment}>
-				<Route exact path="/" render={() => <Education />} />
-				<Route exact path={"/education"} render={() => <Education />} />
-				<Route exact path={"/experience"} render={() => <Experience />} />
-				<Route exact path={"/projects"} render={() => <Projects />} />
-				<Route exact path={"/skills"} render={() => <Skills />} />
-				<Route exact path={"/about"} render={() => <Biography />} />
-			</div>
+				<div className="ui center aligned basic segment" style={styles.segment}>
+					<Switch>
+						<Route path="/" exact component={Education}/>
+						<Route path="/education" component={Education}/>
+						<Route path="/experience" component={Experience}/>
+						<Route path="/projects" component={Projects}/>
+						<Route path="/skills" component={Skills}/>
+						<Route path="/about" component={Biography}/>
+					</Switch>
+				</div>			
 		)
 	}
 }
