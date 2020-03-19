@@ -83,7 +83,7 @@ class Left extends Component {
 							<img style={styles.icon} alt="github-icon" src={GithubIcon} />
 						</a>
 					</div>
-					<div className="item" data-tip="Go to Resume">
+					{/* <div className="item" data-tip="Go to Resume">
 						<a
 							href="https://drive.google.com/open?id=1_yY3WhzGCaGwfBbmEoG88-aPyZwQVzz7"
 							target="_blank"
@@ -91,7 +91,7 @@ class Left extends Component {
 						>
 							<img style={styles.icon} alt="download-resume-icon" src={GoToPage} />
 						</a>
-					</div>
+					</div> */}
 				</div>
 				<ReactTooltip />
 			</div>
